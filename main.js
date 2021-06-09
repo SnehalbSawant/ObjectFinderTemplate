@@ -23,7 +23,7 @@ function gotResult(error, results) {
   } else {
     console.log(results);
 	result=results[0].label;
-    document.getElementById("result_object_name").innerHTML = results[0].label;
+  //add a code to display identified onject name 
     
     searching();
   }
