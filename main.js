@@ -30,17 +30,7 @@ function gotResult(error, results) {
 }
 
 function searching(){
-  var obj1= document.getElementById("t1").value;
-  if((obj1!= null) && (result[0]==obj1)){ //take user input
-    alertTone.play();
-		document.getElementById("d1").innerHTML = "MATCH";
-
-	  console.log("match");
-	  save('capture1.png');
-	}
-  else{
-    document.getElementById("d1").innerHTML = "Not found"
-  }
+ //Add code to serach and match the object
 }
 
 
